@@ -1,9 +1,12 @@
+import { LargeCard } from "../Components/LargeCard";
+import { BackgroundSection } from "../Components/StyledComponents";
+
 export const Frontpage = () => {
   return (
-    <section>
+    <BackgroundSection>
       <div>
-        <h1>Front</h1>
+        <LargeCard />
       </div>
-    </section>
+    </BackgroundSection>
   );
 };
