@@ -21,6 +21,7 @@ export const StyledImage = styled.img`
   border-radius: 50%;
   border: white 3px solid;
   width: 50%;
+  margin: 1em 0 0 1em;
 `;
 
 export const InsideDiv = styled.div`
@@ -28,7 +29,9 @@ export const InsideDiv = styled.div`
   ${(props) => {
     if (props.margin)
       return `
-    margin: 1em 0;`;
+    padding: 5em 1em;
+    width: 80%;
+    color: white;`;
   }}
 `;
 
