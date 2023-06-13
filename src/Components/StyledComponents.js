@@ -3,6 +3,9 @@ import styled from "styled-components";
 export const BackgroundSection = styled.section`
   background-color: #0d1323;
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 export const LargeCardDivInside = styled.div`
@@ -12,7 +15,7 @@ export const LargeCardDivInside = styled.div`
 
 export const LargeCardDiv = styled.div`
   background-color: #1d204b;
-  width: 20%;
+  width: 30%;
   text-align: left;
   border-radius: 20px;
 `;
@@ -52,4 +55,17 @@ export const SmallCardDivBottom = styled.div`
 export const SmallCardDivTop = styled.div`
   border-radius: 20px 20px 0 0;
   padding: 1em;
+`;
+
+export const GridDiv = styled.div`
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 1em;
+  width: 100%;
+`;
+
+export const SizeDiv = styled.div`
+  width: 80%;
+  display: flex;
+  gap: 1em;
 `;

@@ -1,16 +1,20 @@
 import { LargeCard } from "../Components/LargeCard";
 import { SmallCard } from "../Components/SmallCard";
-import { BackgroundSection } from "../Components/StyledComponents";
+import {
+  BackgroundSection,
+  GridDiv,
+  SizeDiv,
+} from "../Components/StyledComponents";
 
 export const Frontpage = () => {
   return (
     <BackgroundSection>
-      <div>
+      <SizeDiv>
         <LargeCard />
-      </div>
-      <div>
-        <SmallCard />
-      </div>
+        <GridDiv>
+          <SmallCard />
+        </GridDiv>
+      </SizeDiv>
     </BackgroundSection>
   );
 };
