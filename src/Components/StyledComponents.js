@@ -43,3 +43,13 @@ export const LargeP = styled.p`
 export const NoMarginP = styled.p`
   margin: 0;
 `;
+
+export const SmallCardDivBottom = styled.div`
+  border-radius: 20px;
+  background-color: #1d204b;
+`;
+
+export const SmallCardDivTop = styled.div`
+  border-radius: 20px 20px 0 0;
+  padding: 1em;
+`;
